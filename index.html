@@ -2,66 +2,95 @@
 
 <html>
 
-  <head>
+<head>
 
     <title>Test Page: Don't Panic</title>
 
     <meta charset="utf-8">
 
-  </head>
+    <style>
+        a{
+            color:red;
+        }
+        #exec-bio {
+    
+            background-color: lightgray;
+    
+        }
+        #Orange-Box{
+            background-color: orange;
+        }
+    
+        .bio-box {
+    
+            border: 1px solid black;
+    
+        }
+    
+        .bio-box a {
+    
+            color: green;
+    
+        }
+        .Azure-box{
+            color: azure;
+        }
+    </style>
 
-  <body>
+</head>
+
+<body>
 
     <h1>I'm an h1</h1>
 
     <ul>
 
-      <li>
+        <li>
 
-        <a href="https://example.com/" style="color: red;">Link</a>
+            <a id="Orange-Box" href="https://example.com/">Link</a>
 
-      </li>
+        </li>
 
-      <li>
+        <li>
 
-        <a href="https://example.com/" style="color: red;">Link</a>
+            <a href="https://example.com/">Link</a>
 
-      </li>
+        </li>
 
-      <li>
+        <li>
 
-        <a href="https://example.com/" style="color: red;">Link</a>
+            <a href="https://example.com/">Link</a>
 
-      </li>
+        </li>
 
     </ul>
 
     <h2>I'm an h2</h2>
 
-    <div style="border: 1px solid black;">
+    <div id="exec-bio" class="bio-box" class="Azure-box">
 
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
+        <a href="https://example.com/">I'm a link</a>
+  
+      </div>
+  
+      <div class="bio-box" class="Azure-box">
+  
+        <a href="https://example.com/">I'm a link</a>
+  
+      </div>
+  
+      <div class="bio-box" class="Azure-box">
+  
+        <a href="https://example.com/">I'm a link</a>
+  
+      </div>
+  
+      <div class="bio-box" class="Azure-box">
+  
+        <a href="https://example.com/">I'm a link</a>
+  
+      </div>
 
-    </div>
-
-    <div style="border: 1px solid black;">
-
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
-
-    </div>
-
-    <div style="border: 1px solid black;">
-
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
-
-    </div>
-
-    <div style="border: 1px solid black;">
-
-      <a href="https://example.com/" style="color: green;">I'm a link</a>
-
-    </div>
-
-  </body>
+</body>
 
 </html>
